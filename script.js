@@ -241,9 +241,9 @@ const databaseSantri = {
     khairul: {
         nama: "Khairul Azzam M.",
         panggilan: "Khairul",
-        kelas: "6 KMI",
+        kelas: "5 KMI",
         musyrif: "Ust. Lathif Az Zain",
-        totalZiyadah: "10 Juz (Juz 1-5 & 26-30)",
+        totalZiyadah: "7 Juz (Juz 1-2 & 26-30)",
         avatar: "K",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Hajj: 1-25", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "12 Halaman", predikat: "Jayyid Jiddan" },
@@ -260,9 +260,9 @@ const databaseSantri = {
     taqia: {
         nama: "M. Taqia Akmal Firdaus",
         panggilan: "Taqia",
-        kelas: "6 KMI",
+        kelas: "5 KMI",
         musyrif: "Ust. Lathif Az Zain",
-        totalZiyadah: "11 Juz (Juz 1-5 & 25-30)",
+        totalZiyadah: "7 Juz (Juz 1-2 & 26-30)",
         avatar: "T",
         mingguan: {
             "minggu-1": { ziyadah: "QS. An-Nur: 1-20", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -279,9 +279,9 @@ const databaseSantri = {
     zaki: {
         nama: "M. Zaki Alfarisi",
         panggilan: "Zaki",
-        kelas: "6 KMI",
+        kelas: "5 KMI",
         musyrif: "Ust. Lathif Az Zain",
-        totalZiyadah: "9 Juz (Juz 1-4 & 27-30)",
+        totalZiyadah: "7 Juz (Juz 1-2 & 26-30)",
         avatar: "Z",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Asy-Syu'ara: 1-50", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
@@ -300,7 +300,7 @@ const databaseSantri = {
         panggilan: "Zaidan",
         kelas: "5 KMI",
         musyrif: "Ust. Lathif Az Zain",
-        totalZiyadah: "8 Juz (Juz 1-3 & 28-30)",
+        totalZiyadah: "8 Juz (Juz 1-3 & 26-30)",
         avatar: "Z",
         mingguan: {
             "minggu-1": { ziyadah: "QS. An-Naml: 1-25", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -319,7 +319,7 @@ const databaseSantri = {
         panggilan: "Azzam",
         kelas: "5 KMI",
         musyrif: "Ust. Lathif Az Zain",
-        totalZiyadah: "7 Juz (Juz 1-3 & 29-30)",
+        totalZiyadah: "7 Juz (Juz 1-2 & 26-30)",
         avatar: "A",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Qasas: 1-20", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
@@ -336,9 +336,9 @@ const databaseSantri = {
     karimafa: {
         nama: "Karimafa Guruminda",
         panggilan: "Karimafa",
-        kelas: "5 KMI",
+        kelas: "4 KMI",
         musyrif: "Ust. Lathif Az Zain",
-        totalZiyadah: "10 Juz (Juz 1-5 & 26-30)",
+        totalZiyadah: "7 Juz (Juz 1-2 & 26-30)",
         avatar: "K",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Ankabut: 1-20", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -355,9 +355,9 @@ const databaseSantri = {
     althof: {
         nama: "Althof Hamdan Musthofa",
         panggilan: "Althof",
-        kelas: "5 KMI",
+        kelas: "3 KMI",
         musyrif: "Ust. Lathif Az Zain",
-        totalZiyadah: "8 Juz (Juz 1-3 & 28-30)",
+        totalZiyadah: "4 Juz (Juz 27-30)",
         avatar: "A",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Luqman: 1-15", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
@@ -374,9 +374,9 @@ const databaseSantri = {
     fauzan: {
         nama: "Fauzan Alghifary",
         panggilan: "Fauzan",
-        kelas: "5 KMI",
+        kelas: "6 KMI",
         musyrif: "Ust. Lathif Az Zain",
-        totalZiyadah: "9 Juz (Juz 1-4 & 27-30)",
+        totalZiyadah: "11 Juz (Juz 1-6 & 26-30)",
         avatar: "F",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Ahzab: 1-20", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -395,9 +395,9 @@ const databaseSantri = {
     ibrahimovic: {
         nama: "M. Ibrahimovic",
         panggilan: "Ibrahimovic",
-        kelas: "6 KMI",
+        kelas: "4 KMI",
         musyrif: "Ust. Alif Dhiyaul Haq",
-        totalZiyadah: "10 Juz (Juz 1-5 & 26-30)",
+        totalZiyadah: "6 Juz (Juz 1 & 26-30)",
         avatar: "I",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Fatir: 1-20", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "12 Halaman", predikat: "Jayyid Jiddan" },
@@ -414,9 +414,9 @@ const databaseSantri = {
     adzfar: {
         nama: "Adzfar Raihan Zahiruddin",
         panggilan: "Adzfar",
-        kelas: "6 KMI",
+        kelas: "5 KMI",
         musyrif: "Ust. Alif Dhiyaul Haq",
-        totalZiyadah: "11 Juz (Juz 1-5 & 25-30)",
+        totalZiyadah: "6 Juz (Juz 1 & 26-30)",
         avatar: "A",
         mingguan: {
             "minggu-1": { ziyadah: "QS. As-Saffat: 1-50", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -433,9 +433,9 @@ const databaseSantri = {
     nizam: {
         nama: "Nizam Rayi Utomo",
         panggilan: "Nizam",
-        kelas: "6 KMI",
+        kelas: "4 KMI",
         musyrif: "Ust. Alif Dhiyaul Haq",
-        totalZiyadah: "9 Juz (Juz 1-4 & 27-30)",
+        totalZiyadah: "6 Juz (Juz 1 & 26-30)",
         avatar: "N",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Az-Zumar: 1-25", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
@@ -452,9 +452,9 @@ const databaseSantri = {
     abdurrahman: {
         nama: "M. Abdurrahman",
         panggilan: "Abdurrahman",
-        kelas: "5 KMI",
+        kelas: "4 KMI",
         musyrif: "Ust. Alif Dhiyaul Haq",
-        totalZiyadah: "8 Juz (Juz 1-3 & 28-30)",
+        totalZiyadah: "6 Juz (Juz 1 & 26-30)",
         avatar: "M",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Ghafir: 26-50", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -471,9 +471,9 @@ const databaseSantri = {
     haikal: {
         nama: "Haikal Ilman Abdurrahman",
         panggilan: "Haikal",
-        kelas: "5 KMI",
+        kelas: "3 KMI",
         musyrif: "Ust. Alif Dhiyaul Haq",
-        totalZiyadah: "7 Juz (Juz 1-3 & 29-30)",
+        totalZiyadah: "4 Juz (Juz 27-30)",
         avatar: "H",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Asy-Syura: 1-25", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
@@ -492,7 +492,7 @@ const databaseSantri = {
         panggilan: "Khayru",
         kelas: "5 KMI",
         musyrif: "Ust. Alif Dhiyaul Haq",
-        totalZiyadah: "10 Juz (Juz 1-5 & 26-30)",
+        totalZiyadah: "4 Juz (Juz 27-30)",
         avatar: "K",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Ad-Dukhan: 1-59", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -509,9 +509,9 @@ const databaseSantri = {
     mzaki: {
         nama: "M. Zaki Pratama",
         panggilan: "Zaki",
-        kelas: "5 KMI",
+        kelas: "2 KMI",
         musyrif: "Ust. Alif Dhiyaul Haq",
-        totalZiyadah: "8 Juz (Juz 1-3 & 28-30)",
+        totalZiyadah: "1 Juz (Juz 30)",
         avatar: "Z",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Muhammad: 1-20", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
@@ -528,9 +528,9 @@ const databaseSantri = {
     fathra: {
         nama: "Fathra Masya A.",
         panggilan: "Fathra",
-        kelas: "5 KMI",
+        kelas: "6 KMI",
         musyrif: "Ust. Alif Dhiyaul Haq",
-        totalZiyadah: "9 Juz (Juz 1-4 & 27-30)",
+        totalZiyadah: "9 Juz (Juz 1-4 & 26-30)",
         avatar: "F",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Hujurat: 1-9", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -549,9 +549,9 @@ const databaseSantri = {
     gheits: {
         nama: "M Gheits Syauqi Imtiyazi",
         panggilan: "Gheits",
-        kelas: "6 KMI",
+        kelas: "2 KMI",
         musyrif: "Ust. Syahid",
-        totalZiyadah: "10 Juz (Juz 1-5 & 26-30)",
+        totalZiyadah: "1 Juz (Juz 30)",
         avatar: "G",
         mingguan: {
             "minggu-1": { ziyadah: "QS. At-Tur: 1-25", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "12 Halaman", predikat: "Jayyid Jiddan" },
@@ -568,9 +568,9 @@ const databaseSantri = {
     abyan: {
         nama: "Abyan Al-Zahir",
         panggilan: "Abyan",
-        kelas: "6 KMI",
+        kelas: "3 KMI",
         musyrif: "Ust. Syahid",
-        totalZiyadah: "11 Juz (Juz 1-5 & 25-30)",
+        totalZiyadah: "3 Juz (Juz 27-30)",
         avatar: "A",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Qamar: 1-25", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -587,9 +587,9 @@ const databaseSantri = {
     naufal: {
         nama: "Naufal Syan R",
         panggilan: "Naufal",
-        kelas: "6 KMI",
+        kelas: "3 KMI",
         musyrif: "Ust. Syahid",
-        totalZiyadah: "9 Juz (Juz 1-4 & 27-30)",
+        totalZiyadah: "9 Juz (Juz 27-30)",
         avatar: "N",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Waqiah: 1-25", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
@@ -606,9 +606,9 @@ const databaseSantri = {
     ahmadhunaif: {
         nama: "Ahmad Hunaif",
         panggilan: "Hunaif",
-        kelas: "5 KMI",
+        kelas: "3 KMI",
         musyrif: "Ust. Syahid",
-        totalZiyadah: "8 Juz (Juz 1-3 & 28-30)",
+        totalZiyadah: "4 Juz (Juz 27-30)",
         avatar: "A",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Mujadilah: 1-10", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -625,9 +625,9 @@ const databaseSantri = {
     fathir: {
         nama: "Fathir Zahy Absyar",
         panggilan: "Fathir",
-        kelas: "5 KMI",
+        kelas: "3 KMI",
         musyrif: "Ust. Syahid",
-        totalZiyadah: "7 Juz (Juz 1-3 & 29-30)",
+        totalZiyadah: "4 Juz (Juz 27-30)",
         avatar: "F",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Mumtahanah: 1-7", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
@@ -644,9 +644,9 @@ const databaseSantri = {
     hamizan: {
         nama: "Hamizan Aiman Agustin",
         panggilan: "Hamizan",
-        kelas: "5 KMI",
+        kelas: "3 KMI",
         musyrif: "Ust. Syahid",
-        totalZiyadah: "10 Juz (Juz 1-5 & 26-30)",
+        totalZiyadah: "3 Juz (Juz 28-30)",
         avatar: "H",
         mingguan: {
             "minggu-1": { ziyadah: "QS. Al-Jumu'ah: 1-11", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "11 Halaman", predikat: "Jayyid Jiddan" },
@@ -663,9 +663,9 @@ const databaseSantri = {
     revan: {
         nama: "Revan Anggara Putra",
         panggilan: "Revan",
-        kelas: "5 KMI",
+        kelas: "2 KMI",
         musyrif: "Ust. Syahid",
-        totalZiyadah: "8 Juz (Juz 1-3 & 28-30)",
+        totalZiyadah: "1 Juz (Juz 30)",
         avatar: "R",
         mingguan: {
             "minggu-1": { ziyadah: "QS. At-Talaq: 1-6", lancar: "Lancar", tajwid: "Jayyid Jiddan", murojaah: "Juz 30", tilawah: "10 Halaman", predikat: "Jayyid Jiddan" },
