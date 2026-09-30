@@ -4,7 +4,7 @@ const databaseSantri = {
     nama: "Ahmad Zidan Al-Fatih",
     panggilan: "Ahmad Zidan",
     kelas: "8 Tahfidz A",
-    musyrif: "Ustadz H. Abdullah, S.Pd.I",
+    musyrif: "Ustadz Sakti wibowo",
     totalZiyadah: "6 Juz (Juz 25-30)",
     avatar: "AZ",
     mingguan: {
@@ -64,7 +64,7 @@ const databaseSantri = {
     nama: "Fatimah Az-Zahra",
     panggilan: "Fatimah",
     kelas: "9 Tahfidz B",
-    musyrif: "Ustadzah Hajjah Maryam, S.Th.I",
+    musyrif: "Ustadzah Cut shofi",
     totalZiyadah: "12 Juz (Juz 19-30)",
     avatar: "FA",
     mingguan: {
@@ -117,7 +117,7 @@ const databaseSantri = {
     nama: "Muhammad Umar",
     panggilan: "Umar",
     kelas: "7 Tahfidz C",
-    musyrif: "Ustadz Ahmad Fauzi, Lc.",
+    musyrif: "Ustadz Fadhil",
     totalZiyadah: "3 Juz (Juz 28-30)",
     avatar: "MU",
     mingguan: {
