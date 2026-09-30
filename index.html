@@ -50,7 +50,7 @@
             <input
               type="text"
               id="input-nama-anak"
-              placeholder="Contoh: Malik, sahilny, Rendra"
+              placeholder="Contoh: Malik"
               class="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:outline-none bg-slate-50 text-slate-700 text-sm sm:text-base font-medium"
             />
             <p class="text-[11px] text-slate-400 mt-1">
@@ -63,7 +63,7 @@
             class="hidden text-xs text-red-500 font-medium bg-red-50 p-2.5 rounded-lg border border-red-200"
           >
             <i class="fa-solid fa-triangle-exclamation"></i> Nama anak tidak
-            ditemukan. Coba ketik: Malik, sahilny, atau Rendra.
+            ditemukan. Coba ketik: Malik Dll.
           </div>
 
           <button
@@ -118,7 +118,8 @@
               id="nav-rekap"
               class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition text-emerald-200 hover:bg-emerald-800 hover:text-white"
             >
-              <i class="fa-solid fa-book-open-reader w-5"></i> Rekap Mingguan
+              <i class="fa-solid fa-book-open-reader w-5"></i> Rekap pekan &
+              Bulan
             </button>
             <button
               onclick="switchTab('berita')"
@@ -389,34 +390,38 @@
           </div>
 
           <!-- TAB 2: REKAP MINGGUAN -->
+          <!-- TAB 2: REKAPITULASI (MINGGUAN & BULANAN) -->
           <div id="tab-rekap" class="hidden space-y-4 sm:space-y-6">
             <div
               class="bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3"
             >
               <div>
                 <h3 class="font-bold text-slate-800 text-base sm:text-lg">
-                  Detail Rekapitulasi Per Minggu
+                  Detail Rekapitulasi Hafalan
                 </h3>
                 <p class="text-[11px] sm:text-xs text-slate-500">
-                  Pilih pekan bulan berjalan untuk melihat detail capaian
-                  hafalan anak.
+                  Pilih jenis laporan dan periode untuk melihat capaian anak.
                 </p>
               </div>
-              <div class="flex items-center gap-2 w-full sm:w-auto">
-                <label class="text-xs font-semibold text-slate-600 shrink-0"
-                  >Pekan:</label
-                >
+
+              <div class="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+                <!-- Pilihan Jenis Rekap (Mingguan / Bulanan) -->
                 <select
-                  id="select-minggu"
-                  onchange="renderRekapData()"
-                  class="w-full sm:w-auto p-2.5 border border-slate-300 rounded-xl text-xs sm:text-sm bg-slate-50 font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                  id="select-jenis-rekap"
+                  onchange="toggleJenisRekap()"
+                  class="p-2.5 border border-slate-300 rounded-xl text-xs sm:text-sm bg-slate-50 font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                 >
-                  <option value="minggu-1">Minggu ke-1</option>
-                  <option value="minggu-2">Minggu ke-2</option>
-                  <option value="minggu-3">Minggu ke-3</option>
-                  <option value="minggu-4" selected>
-                    Minggu ke-4 (Terbaru)
-                  </option>
+                  <option value="mingguan">Rekap Mingguan</option>
+                  <option value="bulanan">Rekap Bulanan</option>
+                </select>
+
+                <!-- Dropdown Periode (Minggu / Bulan) -->
+                <select
+                  id="select-periode"
+                  onchange="renderRekapData()"
+                  class="p-2.5 border border-slate-300 rounded-xl text-xs sm:text-sm bg-slate-50 font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                >
+                  <!-- Opsi akan diisi dinamis via JavaScript -->
                 </select>
               </div>
             </div>
@@ -436,7 +441,9 @@
                   <div
                     class="flex justify-between py-1 border-b border-slate-100"
                   >
-                    <span class="text-slate-500">Surah / Ayat:</span>
+                    <span id="label-surah" class="text-slate-500"
+                      >Surah / Ayat:</span
+                    >
                     <span
                       id="rekap-ziyadah-surah"
                       class="font-semibold text-slate-800 text-right"
@@ -446,7 +453,9 @@
                   <div
                     class="flex justify-between py-1 border-b border-slate-100"
                   >
-                    <span class="text-slate-500">Kelancaran:</span>
+                    <span id="label-lancar" class="text-slate-500"
+                      >Kelancaran:</span
+                    >
                     <span
                       id="rekap-ziyadah-lancar"
                       class="font-semibold text-emerald-700"
@@ -456,7 +465,9 @@
                   <div
                     class="flex justify-between py-1 border-b border-slate-100"
                   >
-                    <span class="text-slate-500">Nilai Tajwid:</span>
+                    <span id="label-tajwid" class="text-slate-500"
+                      >Nilai Tajwid:</span
+                    >
                     <span
                       id="rekap-ziyadah-tajwid"
                       class="font-semibold text-amber-600"
@@ -473,13 +484,15 @@
                   class="font-bold text-amber-800 text-sm sm:text-base border-b pb-2 flex items-center gap-2"
                 >
                   <i class="fa-solid fa-rotate text-amber-600"></i> Murojaah &
-                  Tilawah
+                  Evaluasi
                 </h4>
                 <div class="space-y-2.5 text-xs sm:text-sm">
                   <div
                     class="flex justify-between py-1 border-b border-slate-100"
                   >
-                    <span class="text-slate-500">Murojaah (Pengulangan):</span>
+                    <span id="label-murojaah" class="text-slate-500"
+                      >Murojaah (Pengulangan):</span
+                    >
                     <span
                       id="rekap-murojaah"
                       class="font-semibold text-slate-800 text-right"
@@ -489,7 +502,9 @@
                   <div
                     class="flex justify-between py-1 border-b border-slate-100"
                   >
-                    <span class="text-slate-500">Capaian Tilawah:</span>
+                    <span id="label-tilawah" class="text-slate-500"
+                      >Capaian Tilawah:</span
+                    >
                     <span id="rekap-tilawah" class="font-semibold text-blue-700"
                       >-</span
                     >
@@ -506,6 +521,23 @@
                   </div>
                 </div>
               </div>
+            </div>
+
+            <!-- Kotak Catatan Periode -->
+            <div
+              id="box-catatan-bulan"
+              class="hidden bg-emerald-50 border border-emerald-200 p-4 rounded-2xl text-xs sm:text-sm text-emerald-900"
+            >
+              <p class="font-bold mb-1">
+                <i class="fa-solid fa-note-sticky"></i> Catatan Evaluasi Bulanan
+                Musyrif:
+              </p>
+              <p
+                id="rekap-catatan-bulan"
+                class="text-slate-700 leading-relaxed"
+              >
+                -
+              </p>
             </div>
           </div>
 
