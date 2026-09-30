@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SITAHFIDZ - Rekapitulasi Hafalan Santri</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-50 font-['Poppins'] text-slate-800 antialiased">
+    <!-- HALAMAN LOGIN / MASUK DENGAN NAMA ANAK -->
+    <div
+      id="login-page"
+      class="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-800 to-teal-900 p-4"
+    >
+      <div
+        class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 sm:p-8 text-center border-t-4 border-amber-500"
+      >
+        <div
+          class="w-16 h-16 sm:w-20 sm:h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4 shadow-inner overflow-hidden p-2"
+        >
+          <img
+            src="asset/logo pondok.png"
+            alt="Logo Pondok"
+            class="w-full h-full object-contain"
+          />
+        </div>
+        <h1 class="text-xl sm:text-2xl font-bold text-slate-900">SITAHFIDZ</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mb-6">
+          Portal Rekapitulasi Hafalan Santri
+        </p>
+
+        <div class="space-y-4 text-left">
+          <div>
+            <label
+              class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-2"
+              >Masukkan Nama Anak:</label
+            >
+            <input
+              type="text"
+              id="input-nama-anak"
+              placeholder="Contoh: Zidan, Fatimah, Umar"
+              class="w-full p-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:outline-none bg-slate-50 text-slate-700 text-sm sm:text-base font-medium"
+            />
+            <p class="text-[11px] text-slate-400 mt-1">
+              Ketik nama panggilan anak Anda yang terdaftar di pesantren.
+            </p>
+          </div>
+
+          <div
+            id="login-error"
+            class="hidden text-xs text-red-500 font-medium bg-red-50 p-2.5 rounded-lg border border-red-200"
+          >
+            <i class="fa-solid fa-triangle-exclamation"></i> Nama anak tidak
+            ditemukan. Coba ketik: Zidan, Fatimah, atau Umar.
+          </div>
+
+          <button
+            onclick="handleLogin()"
+            class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-semibold py-3 rounded-xl transition duration-200 shadow-lg shadow-emerald-700/35 flex items-center justify-center gap-2 text-sm sm:text-base"
+          >
+            <i class="fa-solid fa-right-to-bracket"></i> Masuk Dashboard
+          </button>
+        </div>
+        <p class="text-xs text-slate-400 mt-6">
+          © 2026 Pondok Pesantren Uswatun Hasanah Purwakarta
+        </p>
+      </div>
+    </div>
+
+    <!-- HALAMAN UTAMA / DASHBOARD (Hidden by default) -->
+    <div
+      id="main-app"
+      class="hidden min-h-screen flex flex-col md:flex-row pb-20 md:pb-0"
+    >
+      <!-- SIDEBAR NAVIGATION (Hanya tampil di Desktop/Laptop) -->
+      <aside
+        class="hidden md:flex w-64 bg-emerald-900 text-white flex-col justify-between shadow-xl fixed h-full z-20"
+      >
+        <div>
+          <div class="p-6 border-b border-emerald-800 flex items-center gap-3">
+            <div
+              class="w-10 h-10 bg-amber-500 text-slate-900 rounded-xl flex items-center justify-center font-bold text-xl"
+            >
+              <img
+                src="asset/logo pondok.png"
+                alt="Logo Pondok"
+                class="w-full h-full object-contain"
+              />
+            </div>
+            <div>
+              <h2 class="font-bold text-lg leading-tight">SITAHFIDZ</h2>
+              <span class="text-xs text-emerald-300">Wali Santri Portal</span>
+            </div>
+          </div>
+
+          <nav class="p-4 space-y-1">
+            <button
+              onclick="switchTab('dashboard')"
+              id="nav-dashboard"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition bg-emerald-800 text-amber-400"
+            >
+              <i class="fa-solid fa-chart-pie w-5"></i> Dashboard Utama
+            </button>
+            <button
+              onclick="switchTab('rekap')"
+              id="nav-rekap"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition text-emerald-200 hover:bg-emerald-800 hover:text-white"
+            >
+              <i class="fa-solid fa-book-open-reader w-5"></i> Rekap Mingguan
+            </button>
+            <button
+              onclick="switchTab('berita')"
+              id="nav-berita"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition text-emerald-200 hover:bg-emerald-800 hover:text-white"
+            >
+              <i class="fa-solid fa-award w-5"></i> Berita & Apresiasi
+            </button>
+          </nav>
+        </div>
+
+        <!-- PROFIL WALI CARD DI SIDEBAR -->
+        <div
+          class="p-4 m-4 bg-emerald-800/60 rounded-xl border border-emerald-700/50 flex items-center justify-between"
+        >
+          <div>
+            <p class="text-[11px] text-emerald-300">Masuk sebagai:</p>
+            <p
+              id="sidebar-parent-name"
+              class="text-xs font-semibold text-white truncate max-w-[120px]"
+            >
+              Wali Santri
+            </p>
+          </div>
+          <button
+            onclick="handleLogout()"
+            title="Keluar Akun"
+            class="text-emerald-300 hover:text-white p-2"
+          >
+            <i class="fa-solid fa-power-off text-red-400"></i>
+          </button>
+        </div>
+      </aside>
+
+      <!-- BOTTOM NAVBAR (Hanya tampil di HP / Mobile) -->
+      <div
+        class="md:hidden fixed bottom-0 left-0 right-0 bg-emerald-900 text-white border-t border-emerald-800 flex justify-around p-2 z-30 shadow-2xl"
+      >
+        <button
+          onclick="switchTab('dashboard')"
+          id="mob-nav-dashboard"
+          class="flex flex-col items-center py-1 px-3 text-amber-400"
+        >
+          <i class="fa-solid fa-chart-pie text-lg mb-0.5"></i>
+          <span class="text-[10px] font-medium">Dashboard</span>
+        </button>
+        <button
+          onclick="switchTab('rekap')"
+          id="mob-nav-rekap"
+          class="flex flex-col items-center py-1 px-3 text-emerald-300 hover:text-white"
+        >
+          <i class="fa-solid fa-book-open-reader text-lg mb-0.5"></i>
+          <span class="text-[10px] font-medium">Rekap</span>
+        </button>
+        <button
+          onclick="switchTab('berita')"
+          id="mob-nav-berita"
+          class="flex flex-col items-center py-1 px-3 text-emerald-300 hover:text-white"
+        >
+          <i class="fa-solid fa-award text-lg mb-0.5"></i>
+          <span class="text-[10px] font-medium">Apresiasi</span>
+        </button>
+      </div>
+
+      <!-- KONTEN UTAMA -->
+      <main class="flex-1 flex flex-col min-h-screen md:ml-64">
+        <!-- TOP HEADER -->
+        <header
+          class="bg-white border-b border-slate-200 px-4 sm:px-6 py-3.5 flex justify-between items-center sticky top-0 z-10 shadow-sm"
+        >
+          <div>
+            <h2
+              id="header-title"
+              class="text-base sm:text-xl font-bold text-slate-800 leading-snug"
+            >
+              Dashboard Perkembangan Hafalan
+            </h2>
+            <p class="text-[11px] sm:text-xs text-slate-500 hidden sm:block">
+              Memantau capaian ibadah dan Al-Qur'an ananda secara berkala.
+            </p>
+          </div>
+          <div
+            class="flex items-center gap-2 sm:gap-3 bg-emerald-50 border border-emerald-200 px-3 py-1.5 rounded-xl"
+          >
+            <div
+              class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-xs"
+              id="avatar-initial"
+            >
+              AZ
+            </div>
+            <div class="text-right sm:text-left">
+              <p
+                id="header-santri-name"
+                class="text-[11px] sm:text-xs font-bold text-emerald-900"
+              >
+                Ahmad Zidan
+              </p>
+              <p
+                id="header-santri-class"
+                class="text-[9px] sm:text-[10px] text-emerald-700"
+              >
+                Kelas 8 Tahfidz A
+              </p>
+            </div>
+            <button
+              onclick="handleLogout()"
+              title="Keluar"
+              class="md:hidden ml-1 text-red-500 p-1 text-xs"
+            >
+              <i class="fa-solid fa-power-off"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- AREA KONTEN DINAMIS -->
+        <div
+          class="p-4 sm:p-6 space-y-4 sm:space-y-6 max-w-7xl w-full mx-auto flex-1"
+        >
+          <!-- TAB 1: DASHBOARD -->
+          <div id="tab-dashboard" class="space-y-4 sm:space-y-6">
+            <!-- Banner Info Musyrif -->
+            <div
+              class="bg-gradient-to-r from-teal-700 to-emerald-800 rounded-2xl p-5 sm:p-6 text-white shadow-lg relative overflow-hidden flex flex-col md:flex-row justify-between items-start md:items-center gap-4"
+            >
+              <div
+                class="absolute right-0 top-0 translate-x-6 -translate-y-6 w-48 h-48 bg-white/10 rounded-full pointer-events-none"
+              ></div>
+              <div class="relative z-10">
+                <span
+                  class="bg-amber-400 text-slate-900 text-[10px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider"
+                  >Status Aktif</span
+                >
+                <h3
+                  id="dash-greeting"
+                  class="text-lg sm:text-2xl font-bold mt-2"
+                >
+                  Ahlan wa Sahlan, Wali Santri
+                </h3>
+                <p class="text-emerald-100 text-xs sm:text-sm mt-1">
+                  Pembimbing (Musyrif):
+                  <span id="dash-musyrif" class="font-semibold text-amber-300"
+                    >Ustadz H. Abdullah</span
+                  >
+                </p>
+              </div>
+              <div
+                class="relative z-10 bg-white/10 backdrop-blur-md p-3.5 sm:p-4 rounded-xl border border-white/20 text-center w-full md:min-w-[160px]"
+              >
+                <p class="text-[11px] sm:text-xs text-emerald-200">
+                  Total Ziyadah Saat Ini
+                </p>
+                <p
+                  id="dash-total-ziyadah"
+                  class="text-xl sm:text-2xl font-extrabold text-amber-300 mt-0.5"
+                >
+                  6 Juz
+                </p>
+              </div>
+            </div>
+
+            <!-- Statistik Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+              <div
+                class="bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-slate-200 flex items-center gap-4"
+              >
+                <div
+                  class="w-12 h-12 sm:w-14 sm:h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-xl sm:text-2xl shadow-inner shrink-0"
+                >
+                  <i class="fa-solid fa-book-bookmark"></i>
+                </div>
+                <div>
+                  <p
+                    class="text-[10px] sm:text-xs text-slate-400 uppercase tracking-wider font-semibold"
+                  >
+                    Ziyadah Pekan Ini
+                  </p>
+                  <h4
+                    id="stat-ziyadah"
+                    class="text-sm sm:text-lg font-bold text-slate-800 mt-0.5"
+                  >
+                    QS. Al-Mulk: 1-15
+                  </h4>
+                  <span
+                    class="text-[11px] sm:text-xs text-emerald-600 font-medium"
+                    ><i class="fa-solid fa-circle-check"></i> Sudah
+                    Disetor</span
+                  >
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-slate-200 flex items-center gap-4"
+              >
+                <div
+                  class="w-12 h-12 sm:w-14 sm:h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center text-xl sm:text-2xl shadow-inner shrink-0"
+                >
+                  <i class="fa-solid fa-rotate"></i>
+                </div>
+                <div>
+                  <p
+                    class="text-[10px] sm:text-xs text-slate-400 uppercase tracking-wider font-semibold"
+                  >
+                    Status Murojaah
+                  </p>
+                  <h4
+                    id="stat-murojaah"
+                    class="text-sm sm:text-lg font-bold text-slate-800 mt-0.5"
+                  >
+                    Juz 29 (Lancar)
+                  </h4>
+                  <span
+                    class="text-[11px] sm:text-xs text-amber-600 font-medium"
+                    ><i class="fa-solid fa-star"></i> Mumtaz (A)</span
+                  >
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-slate-200 flex items-center gap-4"
+              >
+                <div
+                  class="w-12 h-12 sm:w-14 sm:h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center text-xl sm:text-2xl shadow-inner shrink-0"
+                >
+                  <i class="fa-solid fa-book-open"></i>
+                </div>
+                <div>
+                  <p
+                    class="text-[10px] sm:text-xs text-slate-400 uppercase tracking-wider font-semibold"
+                  >
+                    Total Tilawah Bulan Ini
+                  </p>
+                  <h4
+                    id="stat-tilawah"
+                    class="text-sm sm:text-lg font-bold text-slate-800 mt-0.5"
+                  >
+                    58 Halaman
+                  </h4>
+                  <span class="text-[11px] sm:text-xs text-blue-600 font-medium"
+                    ><i class="fa-solid fa-chart-line"></i> Target
+                    Tercapai</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Catatan Terbaru -->
+            <div
+              class="bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-slate-200"
+            >
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="font-bold text-slate-800 text-sm sm:text-base">
+                  Catatan Penting Musyrif Minggu Ini
+                </h4>
+                <span class="text-[11px] text-slate-400" id="current-date-badge"
+                  >Minggu Ke-4</span
+                >
+              </div>
+              <div
+                class="p-4 bg-amber-50 border-l-4 border-amber-500 text-amber-900 rounded-r-xl text-xs sm:text-sm leading-relaxed"
+                id="dash-catatan"
+              >
+                Ananda menunjukkan hafalan ziyadah yang sangat baik dan lancar.
+                Namun perlu diperhatikan kembali tajwid pada hukum Mad Lazim di
+                beberapa ayat terakhir.
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: REKAP MINGGUAN -->
+          <div id="tab-rekap" class="hidden space-y-4 sm:space-y-6">
+            <div
+              class="bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3"
+            >
+              <div>
+                <h3 class="font-bold text-slate-800 text-base sm:text-lg">
+                  Detail Rekapitulasi Per Minggu
+                </h3>
+                <p class="text-[11px] sm:text-xs text-slate-500">
+                  Pilih pekan bulan berjalan untuk melihat detail capaian
+                  hafalan anak.
+                </p>
+              </div>
+              <div class="flex items-center gap-2 w-full sm:w-auto">
+                <label class="text-xs font-semibold text-slate-600 shrink-0"
+                  >Pekan:</label
+                >
+                <select
+                  id="select-minggu"
+                  onchange="renderRekapData()"
+                  class="w-full sm:w-auto p-2.5 border border-slate-300 rounded-xl text-xs sm:text-sm bg-slate-50 font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                >
+                  <option value="minggu-1">Minggu ke-1</option>
+                  <option value="minggu-2">Minggu ke-2</option>
+                  <option value="minggu-3">Minggu ke-3</option>
+                  <option value="minggu-4" selected>
+                    Minggu ke-4 (Terbaru)
+                  </option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Detail Rekap Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+              <div
+                class="bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-slate-200 space-y-3 sm:space-y-4"
+              >
+                <h4
+                  class="font-bold text-emerald-800 text-sm sm:text-base border-b pb-2 flex items-center gap-2"
+                >
+                  <i class="fa-solid fa-circle-plus text-emerald-600"></i>
+                  Capaian Ziyadah (Hafalan Baru)
+                </h4>
+                <div class="space-y-2.5 text-xs sm:text-sm">
+                  <div
+                    class="flex justify-between py-1 border-b border-slate-100"
+                  >
+                    <span class="text-slate-500">Surah / Ayat:</span>
+                    <span
+                      id="rekap-ziyadah-surah"
+                      class="font-semibold text-slate-800 text-right"
+                      >-</span
+                    >
+                  </div>
+                  <div
+                    class="flex justify-between py-1 border-b border-slate-100"
+                  >
+                    <span class="text-slate-500">Kelancaran:</span>
+                    <span
+                      id="rekap-ziyadah-lancar"
+                      class="font-semibold text-emerald-700"
+                      >-</span
+                    >
+                  </div>
+                  <div
+                    class="flex justify-between py-1 border-b border-slate-100"
+                  >
+                    <span class="text-slate-500">Nilai Tajwid:</span>
+                    <span
+                      id="rekap-ziyadah-tajwid"
+                      class="font-semibold text-amber-600"
+                      >-</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-slate-200 space-y-3 sm:space-y-4"
+              >
+                <h4
+                  class="font-bold text-amber-800 text-sm sm:text-base border-b pb-2 flex items-center gap-2"
+                >
+                  <i class="fa-solid fa-rotate text-amber-600"></i> Murojaah &
+                  Tilawah
+                </h4>
+                <div class="space-y-2.5 text-xs sm:text-sm">
+                  <div
+                    class="flex justify-between py-1 border-b border-slate-100"
+                  >
+                    <span class="text-slate-500">Murojaah (Pengulangan):</span>
+                    <span
+                      id="rekap-murojaah"
+                      class="font-semibold text-slate-800 text-right"
+                      >-</span
+                    >
+                  </div>
+                  <div
+                    class="flex justify-between py-1 border-b border-slate-100"
+                  >
+                    <span class="text-slate-500">Capaian Tilawah:</span>
+                    <span id="rekap-tilawah" class="font-semibold text-blue-700"
+                      >-</span
+                    >
+                  </div>
+                  <div
+                    class="flex justify-between py-1 border-b border-slate-100"
+                  >
+                    <span class="text-slate-500">Predikat Umum:</span>
+                    <span
+                      id="rekap-predikat"
+                      class="font-semibold text-emerald-700"
+                      >-</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 3: BERITA & APRESIASI -->
+          <div id="tab-berita" class="hidden space-y-4 sm:space-y-6">
+            <div
+              class="bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-slate-200"
+            >
+              <h3 class="font-bold text-slate-800 text-base sm:text-lg mb-1">
+                Berita & Apresiasi Santri Teladan
+              </h3>
+              <p class="text-[11px] sm:text-xs text-slate-500">
+                Informasi santri yang berhasil menyelesaikan ujian Tasmi' atau
+                berprestasi istimewa.
+              </p>
+            </div>
+
+            <!-- Feed Berita Grid -->
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6"
+              id="berita-container"
+            >
+              <!-- Data berita dimuat lewat JS -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
