@@ -678,7 +678,1447 @@ const databaseSantri = {
         },
         catatanMingguIni: "Perhatikan makhraj huruf.",
         berita: []
+    },
+// === 6. USTD. Ghina ===
+amandaKahalifah: {
+        nama: "Amanda Kahalifah N F",
+        panggilan: "Amanda",
+        kelas: " 4 KMA", // Silakan sesuaikan jika perlu
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tetap semangat menghafal.",
+        berita: []
+    },
+    ashilaMahira: {
+        nama: "Ashila Mahira S",
+        panggilan: "Ashila",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kedisiplinan setor.",
+        berita: []
+    },
+    ayoendaDhiaul: {
+        nama: "Ayoenda Dhiaul haq",
+        panggilan: "ayoenda",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek bacaan.",
+        berita: []
+    },
+    hasnaAlifia: {
+        nama: "Hasna Alifia S",
+        panggilan: "Hasna",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "H",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan konsistensi hafalan.",
+        berita: []
+    },
+    khansaAiniya: {
+        nama: "Khansa Ainiya S Z",
+        panggilan: "Khansa",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "K",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Lebih teliti dalam makhraj.",
+        berita: []
+    },
+    nauraSabiha: {
+        nama: "Naura Sabiha",
+        panggilan: "Naura",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan murojaah mandiri.",
+        berita: []
+    },
+    salsabila: {
+        nama: "Salsabila",
+        panggilan: "Salsabila",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan tajwid dan kelancaran.",
+        berita: []
+    },
+    syifaAzhari: {
+        nama: "Syifa Azhari Zendhya R",
+        panggilan: "Syifa",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan prestasi hafalan.",
+        berita: []
+    },
+    babyRizwatul: {
+        nama: "Baby Rizwatul M",
+        panggilan: "Baby",
+        kelas: " 5 KMA",
+        musyrif: "Ustd. Ghina",
+        totalZiyadah: "-",
+        avatar: "B",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan fokus saat setor.",
+        berita: []
+    },
+
+    // === 6. USTD. Istiqomah ===
+    adindaRamadhani: {
+        nama: "Adinda Ramadhani",
+        panggilan: "Adinda",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Istiqomah",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    dwikanajah: {
+        nama: "Dwikanajah N A",
+        panggilan: "Dwikanajah",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Istiqomah",
+        totalZiyadah: "-",
+        avatar: "D",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kualitas hafalan.",
+        berita: []
+    },
+    fadyaAubila: {
+        nama: "Fadya Aubila Z",
+        panggilan: "Fadya",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Istiqomah",
+        totalZiyadah: "-",
+        avatar: "F",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan ritme setoran.",
+        berita: []
+    },
+    nauraAlfia: {
+        nama: "Naura Alfia M",
+        panggilan: "Naura",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Istiqomah",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek bacaan.",
+        berita: []
+    },
+    putriAzzahro: {
+        nama: "Putri Azzahro K",
+        panggilan: "Putri",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Istiqomah",
+        totalZiyadah: "-",
+        avatar: "P",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Lebih teliti saat menghafal ayat baru.",
+        berita: []
+    },
+    nailiNurul: {
+        nama: "Naili Nurul L E",
+        panggilan: "Naili",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Istiqomah",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan murojaah.",
+        berita: []
+    },
+    haifaKhalda: {
+        nama: "Haifa Khalda",
+        panggilan: "Haifa",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Istiqomah",
+        totalZiyadah: "-",
+        avatar: "H",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan kelancaran.",
+        berita: []
+    },
+    saskiaDianti: {
+        nama: "Saskia Dianti",
+        panggilan: "Saskia",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Istiqomah",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+
+    // === 6. USTD. Haura ===
+    raishaYasmina: {
+        nama: "Raisha Yasmina P",
+        panggilan: "Raisha",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Haura",
+        totalZiyadah: "-",
+        avatar: "R",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kualitas bacaan.",
+        berita: []
+    },
+    raishaMutia: {
+        nama: "Raisha Mutia",
+        panggilan: "Raisha",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Haura",
+        totalZiyadah: "-",
+        avatar: "R",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan hafalan.",
+        berita: []
+    },
+    neishaHayati: {
+        nama: "Neisha Hayati F",
+        panggilan: "Neisha",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Haura",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek.",
+        berita: []
+    },
+    fathiaMisyari: {
+        nama: "Fathia Misyari P",
+        panggilan: "Fathia",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Haura",
+        totalZiyadah: "-",
+        avatar: "F",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan fokus setoran.",
+        berita: []
+    },
+    syafaSabrina: {
+        nama: "Syafa Al-Sabrina",
+        panggilan: "Syafa",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Haura",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    syaimaNajmah: {
+        nama: "Syaima Najmah",
+        panggilan: "Syaima",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Haura",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan hafalan.",
+        berita: []
+    },
+    fatimahAzzahra: {
+        nama: "Fatimah Az-zahra",
+        panggilan: "Fatimah",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Haura",
+        totalZiyadah: "-",
+        avatar: "F",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan murojaah.",
+        berita: []
+    },
+    syahminaNimah: {
+        nama: "Syahmina Ni'mah",
+        panggilan: "Syahmina",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Haura",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan kelancaran ayat.",
+        berita: []
+    },
+
+    // === 6. USTD. Elva ===
+husnaKamila: {
+        nama: "Husna Kamila",
+        panggilan: "Husna",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Elva",
+        totalZiyadah: "-",
+        avatar: "H",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kedisiplinan setoran.",
+        berita: []
+    },
+    syifaSyakira: {
+        nama: "Syifa Syakira",
+        panggilan: "Syifa",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Elva",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    reyhanaFatiha: {
+        nama: "Reyhana Fatiha R",
+        panggilan: "Reyhana",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Elva",
+        totalZiyadah: "-",
+        avatar: "R",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan hafalan dengan baik.",
+        berita: []
+    },
+    // === 6. USTD. Fhia ===
+    disaAida: {
+        nama: "Disa Aida R",
+        panggilan: "Disa",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Fhia",
+        totalZiyadah: "-",
+        avatar: "D",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek ayat.",
+        berita: []
+    },
+    jeyhanMaryam: {
+        nama: "Jeyhan Maryam S H",
+        panggilan: "Jeyhan",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Fhia",
+        totalZiyadah: "-",
+        avatar: "J",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan fokus hafalan.",
+        berita: []
+    },
+    sahilnyMudhia: {
+        nama: "Sahilny Mudhia",
+        panggilan: "Sahilny",
+        kelas: "6 KMA",
+        musyrif: "Ustd. Fhia",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan konsistensi setoran.",
+        berita: []
+    },
+// === 6. USTD. dinda ===
+balqis: {
+        nama: "Balqis",
+        panggilan: "Balqis",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "B",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tetap semangat menghafal.",
+        berita: []
+    },
+    raisaDinda: {
+        nama: "Raisa",
+        panggilan: "Raisa",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "R",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    diyah: {
+        nama: "Diyah",
+        panggilan: "Diyah",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "D",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kualitas hafalan.",
+        berita: []
+    },
+    naflah: {
+        nama: "Naflah",
+        panggilan: "Naflah",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan konsistensi.",
+        berita: []
+    },
+    nafisah: {
+        nama: "Nafisah",
+        panggilan: "Nafisah",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek bacaan.",
+        berita: []
+    },
+    sofyah: {
+        nama: "Sofyah",
+        panggilan: "Sofyah",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan murojaah mandiri.",
+        berita: []
+    },
+    jahra: {
+        nama: "Jahra",
+        panggilan: "Jahra",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "J",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan kelancaran setoran.",
+        berita: []
+    },
+    azzah: {
+        nama: "Azzah",
+        panggilan: "Azzah",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Lebih teliti saat menghafal.",
+        berita: []
+    },
+    alfia: {
+        nama: "Alfia",
+        panggilan: "Alfia",
+        kelas: "1 KMA",
+        musyrif: "Ustd. Dinda",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan semangat.",
+        berita: []
+    },
+    // === 6. USTD. Hanif ===
+    safaPutri: {
+        nama: "Safa Putri A",
+        panggilan: "Safa",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Hanif",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    salsabilaNadia: {
+        nama: "Salsabila Nadia F",
+        panggilan: "Salsabila",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Hanif",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kualitas hafalan.",
+        berita: []
+    },
+    hayaButsainah: {
+        nama: "Haya Butsainah M",
+        panggilan: "Haya",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Hanif",
+        totalZiyadah: "-",
+        avatar: "H",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan ritme setoran.",
+        berita: []
+    },
+    ajengNawang: {
+        nama: "Ajeng Nawang W",
+        panggilan: "Ajeng",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Hanif",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek bacaan.",
+        berita: []
+    },
+    virgiaSiti: {
+        nama: "Virgia Siti M",
+        panggilan: "Virgia",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Hanif",
+        totalZiyadah: "-",
+        avatar: "V",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Lebih teliti saat menghafal ayat baru.",
+        berita: []
+    },
+    dhiyaFadidhotun: {
+        nama: "Dhiya Fadidhotun N",
+        panggilan: "Dhiya",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Hanif",
+        totalZiyadah: "-",
+        avatar: "D",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan murojaah.",
+        berita: []
+    },
+    jessicaZahra: {
+        nama: "Jessica Zahra",
+        panggilan: "Jessica",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Hanif",
+        totalZiyadah: "-",
+        avatar: "J",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan kelancaran.",
+        berita: []
+    },
+    // === 6. USTD. Humaira ===
+    rismaPutri: {
+        nama: "Risma Putri I",
+        panggilan: "Risma",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "R",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    salmaZhafirotunnisa: {
+        nama: "Salma Zhafirotunnisa",
+        panggilan: "Salma",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kualitas bacaan.",
+        berita: []
+    },
+    syifaRamadhani: {
+        nama: "Syifa Ramadhani",
+        panggilan: "Syifa",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan hafalan.",
+        berita: []
+    },
+    huwaidaKhilfi: {
+        nama: "Huwaida Khilfi R A",
+        panggilan: "Huwaida",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "H",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek.",
+        berita: []
+    },
+    arikaTsakira: {
+        nama: "Arika Tsakira R",
+        panggilan: "Arika",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan fokus setoran.",
+        berita: []
+    },
+    aqilahLiyana: {
+        nama: "Aqilah Liyana A A",
+        panggilan: "Aqilah",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    salwaFatihatul: {
+        nama: "Salwa Fatihatul F",
+        panggilan: "Salwa",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan hafalan.",
+        berita: []
+    },
+    fajriyahZannatulmawa: {
+        nama: "Fajriyah Zannatulma'wa",
+        panggilan: "Fajriyah",
+        kelas: "2 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "F",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan murojaah.",
+        berita: []
+    },
+    sakinahBerlian: {
+        nama: "Sakinah Berlian W",
+        panggilan: "Sakinah",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan kelancaran ayat.",
+        berita: []
+    },
+    sumayyah: {
+        nama: "Sumayyah",
+        panggilan: "Sumayyah",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Humaerah",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kedisiplinan setoran.",
+        berita: []
+    },
+    // === 6. USTD. Novi ===
+    claudiaSilviana: {
+        nama: "Claudia Silviana",
+        panggilan: "Claudia",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "C",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    desmairaParadibaningtyas: {
+        nama: "Desmaira Paradibaningtyas",
+        panggilan: "Desmaira",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "D",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan hafalan dengan baik.",
+        berita: []
+    },
+    dindaLutfiatul: {
+        nama: "Dinda Lutfiatul H",
+        panggilan: "Dinda",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "D",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek ayat.",
+        berita: []
+    },
+    fatimahAzzahra: {
+        nama: "Fatimah Azzahra",
+        panggilan: "Fatimah",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "F",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan fokus hafalan.",
+        berita: []
+    },
+    kalilaRifda: {
+        nama: "Kalila Rifda R",
+        panggilan: "Kalila",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "K",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan konsistensi setoran.",
+        berita: []
+    },
+    neishaMugnia: {
+        nama: "Neisha Mugnia R",
+        panggilan: "Neisha",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    zahrotulUlya: {
+        nama: "Zahrotul Ulya",
+        panggilan: "Zahrotul",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "Z",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kualitas bacaan.",
+        berita: []
+    },
+    haniNurhayati: {
+        nama: "Hani Nurhayati",
+        panggilan: "Hani",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "H",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan hafalan.",
+        berita: []
+    },
+    queenaRaihani: {
+        nama: "Queena Raihani R",
+        panggilan: "Queena",
+        kelas: "3 KMA",
+        musyrif: "Ustd. Novi",
+        totalZiyadah: "-",
+        avatar: "Q",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek.",
+        berita: []
+    },
+    // === 6. USTD. Ani ===
+    alyaNurfadilah: {
+        nama: "Alya Nurfadilah",
+        panggilan: "Alya",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    khanisaNurAzmi: {
+        nama: "Khanisa Nur Azmi",
+        panggilan: "Khanisa",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "K",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kualitas hafalan.",
+        berita: []
+    },
+    najlaQonitah: {
+        nama: "Najla Qonitah G",
+        panggilan: "Najla",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan ritme setoran.",
+        berita: []
+    },
+    novitaPuspitasari: {
+        nama: "Novita Puspitasari",
+        panggilan: "Novita",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "N",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan panjang pendek bacaan.",
+        berita: []
+    },
+    refizahAmelia: {
+        nama: "Refizah Amelia P",
+        panggilan: "Refizah",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "R",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Lebih teliti saat menghafal ayat baru.",
+        berita: []
+    },
+    rizpiaNikayla: {
+        nama: "Rizpia Nikayla N H",
+        panggilan: "Rizpia",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "R",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan murojaah.",
+        berita: []
+    },
+    sitiSyafa: {
+        nama: "Siti Syafa K",
+        panggilan: "Siti",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "S",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Pertahankan kelancaran.",
+        berita: []
+    },
+    yuanNovita: {
+        nama: "Yuan Novita",
+        panggilan: "Yuan",
+        kelas: "5 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "Y",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Perhatikan makhraj huruf.",
+        berita: []
+    },
+    alika: {
+        nama: "Alika",
+        panggilan: "Alika",
+        kelas: "4 KMA",
+        musyrif: "Ustd. Ani",
+        totalZiyadah: "-",
+        avatar: "A",
+        mingguan: {
+            "minggu-1": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-2": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-3": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" },
+            "minggu-4": { ziyadah: "-", lancar: "-", tajwid: "-", murojaah: "-", tilawah: "-", predikat: "-" }
+        },
+        bulanan: {
+            "september-2026": { periode: "September 2026", ziyadah: "-", rataLancar: "-", rataTajwid: "-", murojaah: "-", totalTilawah: "-", predikatBulan: "-", catatanBulan: "Belum ada catatan." }
+        },
+        catatanMingguIni: "Tingkatkan kedisiplinan setoran.",
+        berita: []
     }
+
+
 };
 
 let currentSantriKey = "malik";
