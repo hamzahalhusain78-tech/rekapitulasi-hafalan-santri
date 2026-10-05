@@ -1121,8 +1121,8 @@ amandaKahalifah: {
         catatanMingguIni: "Pertahankan hafalan.",
         berita: []
     },
-    fatimahAzzahra: {
-        nama: "Fatimah Az-zahra",
+    fatimahzahra: {
+        nama: "Fatimah zahra",
         panggilan: "Fatimah",
         kelas: "6 KMA",
         musyrif: "Ustd. Haura",
